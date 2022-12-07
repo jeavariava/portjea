@@ -1,0 +1,145 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+background-size: cover;
+height: 600px;
+}
+
+nav{
+    border: 2px;
+    border-color: white;
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+}
+
+.nav-links {
+flex:1;
+text-align: center;
+display: inline-block;
+font-size: medium;
+}
+
+.nav-links ul li { 
+list-style: none;
+display: inline-block;
+padding-right: 5px;
+}
+
+.nav-links ul li a {
+    color:black;
+    text-decoration: none;
+}
+#subs-button{
+    text-align: right;
+    font-size: medium;
+    padding: 5px;
+    list-style: none; 
+    border: 1px solid black;
+    background-color: rgb(248, 252, 255);
+    margin-right: 5px;
+}
+
+
+.text-box{
+    justify-content: center;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 15px;
+}
+
+.section_b{
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(119, 42, 62);
+    height: 450px;
+    
+}
+
+.section_text{
+    padding-top: 130px;
+    color: white;
+}
+
+.container{
+flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-between;
+    height: 500px;
+    width: 1250px;;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.content{
+    padding: 100px 60px 100px 60px;}
+
+.containerB {
+    background-color:  rgb(119, 42, 62);
+    display: flex;
+    justify-content: center;
+    height: 47rem;
+}
+
+.card-grid{
+    background-color: white;
+    height: 600px;
+    width:400px;
+}
+
+.card-gridb{
+    height: 600px;
+    width:400px;
+    background-color: rgb(119, 42, 62);
+    color: white;
+}
+.article_text{
+    text-align: center;
+}
+
+.article_image {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 400px;
+    margin:5px;
+} 
+
+
+.article_button{
+    background-color: rgb(119, 42, 62);
+    border-radius: 7px;
+   border: 0px solid;
+    padding: 5px;
+    margin-left: 9vw;
+    margin-top: 2vh;
+   
+   }
+
+.article_button2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: 0px solid;
+    padding: 5px;
+    margin-left: 9vw;
+    margin-top: 2vh;
+   
+   }
+
+   .article_button3{
+    background-color: rgb(119, 42, 62);
+    border-radius: 7px;
+   border: 0px solid;
+    padding: 5px;
+    margin-left: 4vh;
+    margin-top: 2vh;
+   
+   }
+
+  .article_head
+   {
+    font-size:4vh;
+   }

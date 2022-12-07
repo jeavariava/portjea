@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../CSS/portfolio.css" />
+		<!-- Latest compiled and minified CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript">
+			/**/
+			function validate() {
+				var Name = document.getElementById("name");
+
+				var Email = document.getElementById("email");
+				var Message = document.getElementById("message");
+
+				if (Name.value == "" || Email.value == "" || Message.value == "") {
+					alert("ERROR 404!");
+				} else {
+					alert("Your form has been submitted!");
+				}
+			}
+		</script>
+	</head>
+
+	<body style="background-color: rgb(119, 42, 62)">
+		<div class="container-fluid banner">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar">
+						<div class="navbar-brand" ; style="color: #fff">PORTFOLIO</div>
+						<ul class="nav justify-content-end">
+							<li class="nav item" ;>
+								<a
+									class="nav-link"
+									style="color: #fff"
+									href="../html/java.html"
+									>JAVA</a
+								>
+							<li class="nav item" ;>
+								<a
+									class="nav-link"
+									style="color: #fff"
+									href="../html/gallery.html"
+									>GALLERY</a
+								>
+							</li>
+							<li class="nav item">
+								<a
+									class="nav-link"
+									style="color: #fff"
+									href="../html/aboutme.html"
+									>ABOUT</a
+								>
+							</li>
+							<li class="nav item">
+								<a class="nav-link" style="color: #fff" href="../index.html"
+									>HOME</a
+								>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div
+			class="Head1 extramargin text-center"
+			style="
+				font-size: 60px;
+				margin-bottom: 0%;
+				padding-top: 120px;
+				color: #fff;
+			"
+			;
+		>
+			CONTACT ME
+		</div>
+		<div class="container m-6 col p-3 blockW40 border-dark">
+			<form></form><div
+				class="container-fluid row m-1 p-3 justify-content-center text-center"
+			>
+				<span class="h1 formMargin" style="color: #fff; font-size: medium"
+					>Name</span
+				>
+				<input
+					type="text"
+					name="FirstName"
+					id="name"
+					placeholder="Name"
+					class="rounded stroke"
+					style="width: 20vw; height: 5vh"
+				/>
+			</div>
+			<div
+				class="container-fluid row m-1 p-3 justify-content-center text-center"
+			>
+				<span class="h1 formMargin" style="color: #fff; font-size: medium"
+					>Email</span
+				>
+				<input
+					type="email"
+					name="UserPassword"
+					id="email"
+					placeholder="Email"
+					class="rounded stroke"
+					style="width: 20vw; height: 5vh"
+				/>
+			</div>
+			<div
+				class="container-fluid row m-1 p-3 justify-content-center text-center"
+			>
+				<span class="h1 formMargin" style="color: #fff; font-size: medium"
+					>Message</span
+				>
+				<input
+					type="text"
+					name="UserPassword"
+					id="message"
+					placeholder="Type your message here..."
+					class="rounded stroke"
+					style="width: 20vw; height: 15vh"
+				/>
+			</div>
+			<br />
+			<div
+				class="container-fluid row m-1 p-3 justify-content-center text-center"
+			>
+				<button
+					onclick="validate()"
+					type="submit"
+					class="rounded stroke homecolour"
+					style="width: 20vw; height: 5vh"
+				>
+					SUBMIT
+				</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
